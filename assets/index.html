@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,59 @@
     <title>Home</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="images/icons/estu-logo-crop.png">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 </head>
+
 <body>
     <header>
-        <a href="#" class="logo">
-            <img src="images/eskisehir-teknik-universitesi_logo.png" alt="estu logo" width="80" height="80">
-            <span class="uni-title">ESTU</span>
-        </a>
-        <nav>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+           <div class="container">
+            <a href="#" class="logo navbar-brand ">
+                <img src="images/eskisehir-teknik-universitesi_logo.png" alt="estu logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                ESTU
+            </a>
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#mainmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse " id="mainmenu">
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item highlight active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item highlight"><a class="nav-link" href="university.html">University</a></li>
+                    <li class="nav-item highlight"><a class="nav-link" href="academics.html">Academics</a></li>
+                    <li class="nav-item highlight"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class=" nav-item dropdown highlight d-sm-none d-md-block">
+                        <a class="nav-link dropdown-toggle" href="students.html" id="navbarDropdown" role="menuitem" data-bs-hover="dropdown" aria-expanded="false">
+                             Students
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="documents.html">Documents</a></li>
+                          <li><a class="dropdown-item" href="login.html">Student Login</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown highlight d-md-none">
+                        <a class="nav-link dropdown-toggle" href="students.html" id="navbarDropdown" role="menuitem" data-bs-toggle="dropdown" aria-expanded="false">
+                             Students
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="students.html">Students</a></li>
+                          <li><a class="dropdown-item" href="documents.html">Documents</a></li>
+                          <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item highlight"><a class="nav-link" href="campuslife.html">Campus life</a></li>
+                </ul>
+            </div>
+           </div>
+        </nav>
+
+        <!--<nav class="navbar bg-light">
+            
             <ul class="nav">
                 <li class="highlight active"><a href="#">Home</a></li>
                 <li class="highlight"><a href="university.html">University</a></li>
@@ -29,22 +75,31 @@
                 <li class="highlight"><a href="research.html">Research</a></li>
                 <li class="highlight"><a href="campuslife.html">Campus life</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <section class="main">
         <div>
             <h2>Welcome to <br>
-                <div class="typer"><h2 class="main-text"> Eskisehir Technical University</h2></div>
+                <div class="typer">
+                    <h2 class="main-text"> Eskisehir Technical University</h2>
+                </div>
             </h2>
 
             <div class="socials">
-                <a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon" src="images/icons/estu_logo_crop.svg" alt="estu logo" ></a>
-                <a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon" src="images/icons/linkedin-brands.svg" alt="linked" ></a>
-                <a href="https://twitter.com/esteknikuniv" target=" _blank"><img class="s-icon" src="images/icons/twitter-brands.svg" alt="twitter" ></a>
-                <a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" target=" _blank"><img class="s-icon" src="images/icons/youtube-brands.svg" alt="youtube" ></a>
-                <a href="https://github.com/EstuCeng" target=" _blank"><img class="s-icon" src="images/icons/github-brands.svg" alt="github"></a>
-                <a href="https://www.instagram.com/eskisehirteknikuniv/" target=" _blank"><img class="s-icon" src="images/icons/instagram-brands.svg" alt="instagram"></a>
-                <a href="https://www.facebook.com/eskisehirteknikuniv" target=" _blank"><img class="s-icon" src="images/icons/facebook-brands.svg" alt="facebook"></a>
+                <a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon"
+                        src="images/icons/estu_logo_crop.svg" alt="estu logo"></a>
+                <a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
+                        src="images/icons/linkedin-brands.svg" alt="linked"></a>
+                <a href="https://twitter.com/esteknikuniv" target=" _blank"><img class="s-icon"
+                        src="images/icons/twitter-brands.svg" alt="twitter"></a>
+                <a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" target=" _blank"><img class="s-icon"
+                        src="images/icons/youtube-brands.svg" alt="youtube"></a>
+                <a href="https://github.com/EstuCeng" target=" _blank"><img class="s-icon"
+                        src="images/icons/github-brands.svg" alt="github"></a>
+                <a href="https://www.instagram.com/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
+                        src="images/icons/instagram-brands.svg" alt="instagram"></a>
+                <a href="https://www.facebook.com/eskisehirteknikuniv" target=" _blank"><img class="s-icon"
+                        src="images/icons/facebook-brands.svg" alt="facebook"></a>
             </div>
         </div>
         <div class="uni-img">
@@ -67,63 +122,85 @@
         <div class="announcements">
             <h2 class="title">Announcements</h2>
             <ul class="ann">
-                <li><a href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ukraynadan-eskisehir-teknik-universitesine-yatay-gecis-ve-ozel-ogrencilik-">
-                    Ukrayna'dan Eskişehir
-                     Teknik Üniversitesi'ne Yatay Geçiş ve Özel Öğrencilik 
+                <li><a
+                        href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ukraynadan-eskisehir-teknik-universitesine-yatay-gecis-ve-ozel-ogrencilik-">
+                        Ukrayna'dan Eskişehir
+                        Teknik Üniversitesi'ne Yatay Geçiş ve Özel Öğrencilik
                     </a></li>
-                <li><a href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/antalya-organize-sanayi-bolgesi-ar-ge-ve-inovasyon-proje-pazarina-katilim-cagrisi-">
-                    Antalya Organize Sanayi Bölgesi AR-GE ve İnovasyon
-                     Proje Pazarı'na Katılım Çağrısı
-                </a> </li>
-                <li><a href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ogrencilerimizin-dikkatine-estu-kodluyoruz-ve-patikadev-akademi-programina-davetlisiniz-">
-                    Öğrencilerimizin Dikkatine: ESTÜ -
-                     Kodluyoruz & Patika.dev Akademi Programı'na Davetlisiniz
-                </a> </li>
-                <li><a href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/akademik-kulup-restoranin-ramazan-ayi-hizmeti-duyurusu">
-                    Akademik Kulüp Restoran'ın Ramazan Ayı Hizmeti Duyurusu
-                </a> </li>
-                <li><a href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ogrencilerimizin-dikkatine-estu-turasas-akademi-ile-rayli-sistemler-teknolojilerini-ogrenmeye-ne-dersiniz-">
-                    Öğrencilerimizin Dikkatine: ESTÜ - TÜRASAŞ Akademi İle Raylı Sistemler Teknolojilerini Öğrenmeye Ne Dersiniz?
-                </a> </li>
+                <li><a
+                        href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/antalya-organize-sanayi-bolgesi-ar-ge-ve-inovasyon-proje-pazarina-katilim-cagrisi-">
+                        Antalya Organize Sanayi Bölgesi AR-GE ve İnovasyon
+                        Proje Pazarı'na Katılım Çağrısı
+                    </a> </li>
+                <li><a
+                        href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ogrencilerimizin-dikkatine-estu-kodluyoruz-ve-patikadev-akademi-programina-davetlisiniz-">
+                        Öğrencilerimizin Dikkatine: ESTÜ -
+                        Kodluyoruz & Patika.dev Akademi Programı'na Davetlisiniz
+                    </a> </li>
+                <li><a
+                        href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/akademik-kulup-restoranin-ramazan-ayi-hizmeti-duyurusu">
+                        Akademik Kulüp Restoran'ın Ramazan Ayı Hizmeti Duyurusu
+                    </a> </li>
+                <li><a
+                        href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ogrencilerimizin-dikkatine-estu-turasas-akademi-ile-rayli-sistemler-teknolojilerini-ogrenmeye-ne-dersiniz-">
+                        Öğrencilerimizin Dikkatine: ESTÜ - TÜRASAŞ Akademi İle Raylı Sistemler Teknolojilerini Öğrenmeye
+                        Ne Dersiniz?
+                    </a> </li>
                 <li><a href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/softtech-yetenek-kusagi-2022">
-                    Softtech - Yetenek Kusağı 2022
-                </a> </li>
+                        Softtech - Yetenek Kusağı 2022
+                    </a> </li>
                 <li><a href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/bentego-is-ilani-2">
-                    BENTEGO İş İlanı
-                </a> </li>
+                        BENTEGO İş İlanı
+                    </a> </li>
                 <li><a href="https://ceng.eskisehir.edu.tr/tr/Duyuru/Detay/temel-is-sagligi-ve-guvenligi-egitimi">
-                    Temel İş Sağlığı ve Güvenliği Eğitimi
-                </a> </li>
-                
+                        Temel İş Sağlığı ve Güvenliği Eğitimi
+                    </a> </li>
+
             </ul>
         </div>
     </section>
-    
+
     <footer>
         <div class="my-socials">
             <h3 class="footer-title"> Copyrights &copy; @radwanbek </h3>
-            <ul class="socials footer-socials" >
+            <ul class="socials footer-socials">
                 <li class="my-web-title"><a href="https://radwanbek.xyz/" target=" _blank">RB</a></li>
-                <li><a href="www.linkedin.com/in/radwanbek" target=" _blank"><img class="s-icon" src="images/icons/linkedin-brands.svg" alt="linked" height="25" ></a></li>
-                <li><a href="https://twitter.com/radwanbek" target=" _blank"><img class="s-icon" src="images/icons/twitter-brands.svg" alt="twitter" height="25" ></a></li>
-                <li><a href="https://github.com/RadwanH" target=" _blank"><img class="s-icon" src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
-                <li><a href="https://www.instagram.com/radwanbek/" target=" _blank"><img class="s-icon" src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
-                <li><a href="https://www.facebook.com/radwanbek" target=" _blank"><img class="s-icon" src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
-            </ul>  
+                <li><a href="www.linkedin.com/in/radwanbek" target=" _blank"><img class="s-icon"
+                            src="images/icons/linkedin-brands.svg" alt="linked" height="25"></a></li>
+                <li><a href="https://twitter.com/radwanbek" target=" _blank"><img class="s-icon"
+                            src="images/icons/twitter-brands.svg" alt="twitter" height="25"></a></li>
+                <li><a href="https://github.com/RadwanH" target=" _blank"><img class="s-icon"
+                            src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
+                <li><a href="https://www.instagram.com/radwanbek/" target=" _blank"><img class="s-icon"
+                            src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
+                <li><a href="https://www.facebook.com/radwanbek" target=" _blank"><img class="s-icon"
+                            src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
+            </ul>
         </div>
-            <div class="uni-socials">
-                <h3 class="footer-title">Eskisehir Technical University</h3>
-                <ul class="socials footer-socials">
-                    <li><a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon" src="images/icons/estu_logo_crop.svg" alt="estu logo" height="25" ></a></li>
-                    <li><a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon" src="images/icons/linkedin-brands.svg" alt="linked" height="25" ></a></li>
-                    <li><a href="https://twitter.com/esteknikuniv" target=" _blank"><img class="s-icon" src="images/icons/twitter-brands.svg" alt="twitter" height="25" ></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" target=" _blank"><img class="s-icon" src="images/icons/youtube-brands.svg" alt="youtube" height="25" ></a></li>
-                    <li><a href="https://github.com/EstuCeng" target=" _blank"><img class="s-icon" src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
-                    <li><a href="https://www.instagram.com/eskisehirteknikuniv/" target=" _blank"><img class="s-icon" src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
-                    <li><a href="https://www.facebook.com/eskisehirteknikuniv" target=" _blank"><img class="s-icon" src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
-                </ul>
-            </div>
-    </footer> 
-    
+        <div class="uni-socials">
+            <h3 class="footer-title">Eskisehir Technical University</h3>
+            <ul class="socials footer-socials">
+                <li><a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon"
+                            src="images/icons/estu_logo_crop.svg" alt="estu logo" height="25"></a></li>
+                <li><a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
+                            src="images/icons/linkedin-brands.svg" alt="linked" height="25"></a></li>
+                <li><a href="https://twitter.com/esteknikuniv" target=" _blank"><img class="s-icon"
+                            src="images/icons/twitter-brands.svg" alt="twitter" height="25"></a></li>
+                <li><a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" target=" _blank"><img
+                            class="s-icon" src="images/icons/youtube-brands.svg" alt="youtube" height="25"></a></li>
+                <li><a href="https://github.com/EstuCeng" target=" _blank"><img class="s-icon"
+                            src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
+                <li><a href="https://www.instagram.com/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
+                            src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
+                <li><a href="https://www.facebook.com/eskisehirteknikuniv" target=" _blank"><img class="s-icon"
+                            src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
