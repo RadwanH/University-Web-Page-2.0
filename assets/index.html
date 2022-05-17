@@ -93,21 +93,39 @@
             class="img-fluid rounded float-end ">
         </div>
     </section>
-    <section class="main-2">
+    <section class="main-2 container-fluid p-5 d-flex justify-content-between align-items-start  ">
         <div class="aside">
             <aside>
-                <ul class="nav">
-                    <li class="highlight active"><a href="#">Home</a></li>
-                    <li class="highlight"><a href="university.html">University</a></li>
-                    <li class="highlight"><a href="academics.html">Academics</a></li>
-                    <li class="highlight"><a href="students.html">Students</a></li>
-                    <li class="highlight"><a href="research.html">Research</a></li>
-                    <li class="highlight"><a href="campuslife.html">Campus life</a></li>
+                <ul class="nav navbar-nav ms-auto flex-column ">
+                    <li class=" nav-item highlight active"><a class="nav-link px-3" href="#">Home</a></li>
+                    <li class="nav-item highlight"><a class="nav-link px-3" href="university.html">University</a></li>
+                    <li class="nav-item highlight"><a class="nav-link px-3" href="academics.html">Academics</a></li>
+                    <li class="nav-item highlight"><a class="nav-link px-3" href="research.html">Research</a></li>
+                    <li class=" nav-item dropdown highlight d-none d-sm-none d-md-block">
+                        <a class="nav-link px-3 dropdown-toggle" href="students.html" id="navbarDropdown" role="menuitem" data-bs-hover="dropdown" aria-expanded="false">
+                             Students
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="documents.html">Documents</a></li>
+                          <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown highlight d-md-none">
+                        <a class="nav-link px-3 dropdown-toggle" href="students.html" id="navbarDropdown" role="menuitem" data-bs-toggle="dropdown" aria-expanded="false">
+                             Students
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="students.html">Students</a></li>
+                          <li><a class="dropdown-item" href="documents.html">Documents</a></li>
+                          <li><a class="dropdown-item" href="login.html">Login</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item highlight"><a class="nav-link px-3" href="campuslife.html">Campus life</a></li>
                 </ul>
             </aside>
         </div>
-        <div class="announcements">
-            <h2 class="title">Announcements</h2>
+        <div class="announcements  ">
+            <h2 class="title  my-2 ">Announcements</h2>
             <ul class="ann">
                 <li><a
                         href="https://www.eskisehir.edu.tr/tr/Duyuru/Detay/ukraynadan-eskisehir-teknik-universitesine-yatay-gecis-ve-ozel-ogrencilik-">
