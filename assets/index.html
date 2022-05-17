@@ -13,12 +13,12 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-           <div class="container">
-            <a href="#" class="logo navbar-brand ">
-                <img src="images/eskisehir-teknik-universitesi_logo.png" alt="estu logo" width="30" height="24"
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+           <div class="container ">
+            <a href="index.html" class="logo navbar-brand d-flex align-items-center gap-1">
+                <img src="images/eskisehir-teknik-universitesi_logo.png" alt="estu logo" width="40" height="34"
                     class="d-inline-block align-text-top">
-                ESTU
+                    <span class="uni-title 	d-none d-sm-block ">ESTU</span>
             </a>
             <button 
                 class="navbar-toggler" 
@@ -29,18 +29,18 @@
             </button>
             
             <div class="collapse navbar-collapse " id="mainmenu">
-                <ul class="nav navbar-nav ms-auto">
-                    <li class="nav-item highlight active"><a class="nav-link" href="#">Home</a></li>
+                <ul class="nav navbar-nav ms-auto  ">
+                    <li class="nav-item highlight active"><a class="nav-link " href="#">Home</a></li>
                     <li class="nav-item highlight"><a class="nav-link" href="university.html">University</a></li>
                     <li class="nav-item highlight"><a class="nav-link" href="academics.html">Academics</a></li>
                     <li class="nav-item highlight"><a class="nav-link" href="research.html">Research</a></li>
-                    <li class=" nav-item dropdown highlight d-sm-none d-md-block">
+                    <li class=" nav-item dropdown highlight d-none d-sm-none d-md-block">
                         <a class="nav-link dropdown-toggle" href="students.html" id="navbarDropdown" role="menuitem" data-bs-hover="dropdown" aria-expanded="false">
                              Students
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="documents.html">Documents</a></li>
-                          <li><a class="dropdown-item" href="login.html">Student Login</a></li>
+                          <li><a class="dropdown-item" href="login.html">Login</a></li>
                         </ul>
                       </li>
                       <li class="nav-item dropdown highlight d-md-none">
@@ -58,34 +58,16 @@
             </div>
            </div>
         </nav>
-
-        <!--<nav class="navbar bg-light">
-            
-            <ul class="nav">
-                <li class="highlight active"><a href="#">Home</a></li>
-                <li class="highlight"><a href="university.html">University</a></li>
-                <li class="highlight"><a href="academics.html">Academics</a></li>
-                <li class="highlight stdnt-menu">
-                    <span class="menu-btn"> <a href="students.html">Students</a></span>
-                    <div class="drop-menu">
-                        <a class="drop-elmnt" href="login.html">Student Login</a>
-                        <a class="drop-elmnt" href="documents.html">Documents</a>
-                    </div>
-                </li>
-                <li class="highlight"><a href="research.html">Research</a></li>
-                <li class="highlight"><a href="campuslife.html">Campus life</a></li>
-            </ul>
-        </nav> -->
     </header>
-    <section class="main">
+    <section class=" container-fluid p-5 d-flex align-items-center min-vh-100  flex-wrap overflow-scroll main flex-md-nowrap">
         <div>
-            <h2>Welcome to <br>
+            <h2 class="text-light mx-md-3 " >Welcome to <br>
                 <div class="typer">
-                    <h2 class="main-text"> Eskisehir Technical University</h2>
+                    <h2 class="main-text fw-bold fs-2 my-3 "> Eskisehir Technical University</h2>
                 </div>
             </h2>
 
-            <div class="socials">
+            <div class="socials mx-md-3">
                 <a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon"
                         src="images/icons/estu_logo_crop.svg" alt="estu logo"></a>
                 <a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
@@ -102,8 +84,13 @@
                         src="images/icons/facebook-brands.svg" alt="facebook"></a>
             </div>
         </div>
-        <div class="uni-img">
-            <img src="images/estu-image-snow.jpg" alt="image of Estu">
+        <div class="uni-img  w-50 d-none d-md-block ">
+            <img src="images/estu-image-snow.jpg" alt="image of Estu" 
+            class="img-fluid rounded float-end  ">
+        </div>
+        <div class="uni-img  d-sm-block d-md-none ">
+            <img src="images/estu-image-snow.jpg" alt="image of Estu" 
+            class="img-fluid rounded float-end ">
         </div>
     </section>
     <section class="main-2">
