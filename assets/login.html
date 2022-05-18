@@ -8,16 +8,19 @@
     <title>Login</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="images/icons/estu-logo-crop.png">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 <body>
     <header class="login-header">
-        <a href="#" class="logo">
-            <img src="images/eskisehir-teknik-universitesi_logo.png" alt="estu logo" width="80" height="80">
-            <span class="uni-title">ESTU</span>
+        <a href="#" class="logo navbar-brand d-flex align-items-center gap-1">
+            <img src="images/eskisehir-teknik-universitesi_logo.png" alt="estu logo" width="40" height="34"
+                class="d-inline-block align-text-top">
+                <span class="uni-title 	d-none d-sm-block ">ESTU</span>
         </a>
     </header>
-    <section class="login-sec">
+    <!-- container-fluid p-5 d-flex align-items-center  flex-wrap  main flex-md-nowrap justify-content-md-between flex-md-row flex-sm-column align-content-center align- gap-5 mt-lg-4 -->
+    <section class="login-sec container-fluid vh-100 d-flex justify-content-center align-items-center  ">
        <h2 class="login-title">Login</h2>
         <div class="login-main">
             <div class="title">Login</div>
@@ -53,32 +56,42 @@
     </section>
 
 
-    <footer>
-      <div class="my-socials">
-          <h3 class="footer-title"> Copyrights &copy; @radwanbek </h3>
-          <ul class="socials footer-socials" >
-              <li class="my-web-title"><a href="https://radwanbek.xyz/" target=" _blank">RB</a></li>
-              <li><a href="www.linkedin.com/in/radwanbek" target=" _blank"><img class="s-icon" src="images/icons/linkedin-brands.svg" alt="linked" height="25" ></a></li>
-              <li><a href="https://twitter.com/radwanbek" target=" _blank"><img class="s-icon" src="images/icons/twitter-brands.svg" alt="twitter" height="25" ></a></li>
-              <li><a href="https://github.com/RadwanH" target=" _blank"><img class="s-icon" src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
-              <li><a href="https://www.instagram.com/radwanbek/" target=" _blank"><img class="s-icon" src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
-              <li><a href="https://www.facebook.com/radwanbek" target=" _blank"><img class="s-icon" src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
-          </ul>  
-      </div>
-          <div class="uni-socials">
-              <h3 class="footer-title">Eskisehir Technical University</h3>
-              <ul class="socials footer-socials">
-                  <li><a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon" src="images/icons/estu_logo_crop.svg" alt="estu logo" height="25" ></a></li>
-                  <li><a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon" src="images/icons/linkedin-brands.svg" alt="linked" height="25" ></a></li>
-                  <li><a href="https://twitter.com/esteknikuniv" target=" _blank"><img class="s-icon" src="images/icons/twitter-brands.svg" alt="twitter" height="25" ></a></li>
-                  <li><a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" target=" _blank"><img class="s-icon" src="images/icons/youtube-brands.svg" alt="youtube" height="25" ></a></li>
-                  <li><a href="https://github.com/EstuCeng" target=" _blank"><img class="s-icon" src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
-                  <li><a href="https://www.instagram.com/eskisehirteknikuniv/" target=" _blank"><img class="s-icon" src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
-                  <li><a href="https://www.facebook.com/eskisehirteknikuniv" target=" _blank"><img class="s-icon" src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
-              </ul>
-          </div>
-  </footer> 
-
+    <footer class="py-4 bg-dark text-white text-center d-md-flex justify-content-around ">
+        <div class="m-sm-4">
+            <h3 class="lead"> Copyrights &copy; 2022 @radwanbek </h3>
+            <ul class="socials footer-socials list-unstyled d-flex gap-3 justify-content-center my-3 ">
+                <li><a href="www.linkedin.com/in/radwanbek" target=" _blank"><img class="s-icon"
+                            src="images/icons/linkedin-brands.svg" alt="linked" height="25"></a></li>
+                <li><a href="https://twitter.com/radwanbek" target=" _blank"><img class="s-icon"
+                            src="images/icons/twitter-brands.svg" alt="twitter" height="25"></a></li>
+                <li><a href="https://github.com/RadwanH" target=" _blank"><img class="s-icon"
+                            src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
+            </ul>
+        </div>
+        <div class="m-sm-4">
+            <h3 class="lead">Eskisehir Technical University</h3>
+            <ul class="socials list-unstyled d-flex gap-3 justify-content-center my-3">
+                <li><a href="https://www.eskisehir.edu.tr/tr" target=" _blank"><img class="s-icon"
+                            src="images/icons/estu_logo_crop.svg" alt="estu logo" height="25"></a></li>
+                <li><a href="https://tr.linkedin.com/school/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
+                            src="images/icons/linkedin-brands.svg" alt="linked" height="25"></a></li>
+                <li><a href="https://twitter.com/esteknikuniv" target=" _blank"><img class="s-icon"
+                            src="images/icons/twitter-brands.svg" alt="twitter" height="25"></a></li>
+                <li><a href="https://www.youtube.com/channel/UC-oGylb9E16KNqMnTP_kDoA" target=" _blank"><img
+                            class="s-icon" src="images/icons/youtube-brands.svg" alt="youtube" height="25"></a></li>
+                <li><a href="https://github.com/EstuCeng" target=" _blank"><img class="s-icon"
+                            src="images/icons/github-brands.svg" alt="github" height="25"></a></li>
+                <li><a href="https://www.instagram.com/eskisehirteknikuniv/" target=" _blank"><img class="s-icon"
+                            src="images/icons/instagram-brands.svg" alt="instagram" height="25"></a></li>
+                <li><a href="https://www.facebook.com/eskisehirteknikuniv" target=" _blank"><img class="s-icon"
+                            src="images/icons/facebook-brands.svg" alt="facebook" height="25"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

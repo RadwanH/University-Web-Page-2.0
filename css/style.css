@@ -133,36 +133,10 @@ section {
 }
 
 
-
-
-
-/* **************index page******************* */
-.login-nav {
-    border: 3px solid green;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.login-nav ul {
-    border: 3px solid red;
-    display: flex;
-    gap: 2.5em;
-    padding-right: 2em;
-}
-
-.login-nav ul li {
-    border: 3px solid green;
-}
-
 /* ***********Login page *********** */
 .login-sec {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("images/estu_view.jpeg");
-    display: flex;
-    justify-content: center;
+        url("/assets/images/estu_view.jpeg");
 }
 
 .login-main {
@@ -304,15 +278,8 @@ form .signup-link a:hover {
 }
 
 /*****University*********/
-.uni-main {
+.sec-main {
     min-height: 50vh;
-    padding-bottom: 0;
-    align-items: flex-end;
-}
-.uni-main h2{
-    font-size: 3em;
-    text-shadow: black;
-    color: #ebe4e4;
 }
 
 .read-more-state {
@@ -349,15 +316,6 @@ form .signup-link a:hover {
     line-height: 2;
     border: 1px solid #ddd;
     border-radius: 0.25em;
-}
-
-.uni-img-2 {
-    margin-top: 2em;
-    width: 100%;
-    background-color: rgba(241, 236, 236, 0.2);
-    border-radius: 10px;
-    transition: 1s ease;
-    overflow: scroll;
 }
 
 .uni-img-2:hover img {
