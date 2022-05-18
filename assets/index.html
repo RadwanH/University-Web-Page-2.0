@@ -59,8 +59,9 @@
            </div>
         </nav>
     </header>
-    <section class=" container-fluid p-5 d-flex align-items-center min-vh-100  flex-wrap overflow-scroll main flex-md-nowrap">
-        <div>
+    <section class=" container-fluid p-5 d-flex align-items-center  flex-wrap overflow-scroll main flex-md-nowrap justify-content-md-between flex-md-row flex-sm-column align-content-center align- gap-5 mt-lg-4
+     ">
+        <div class="pt-sm-5">
             <h2 class="text-light mx-md-3 " >Welcome to <br>
                 <div class="typer">
                     <h2 class="main-text fw-bold fs-2 my-3 "> Eskisehir Technical University</h2>
@@ -84,18 +85,37 @@
                         src="images/icons/facebook-brands.svg" alt="facebook"></a>
             </div>
         </div>
-        <div class="uni-img  w-50 d-none d-md-block ">
-            <img src="images/estu-image-snow.jpg" alt="image of Estu" 
-            class="img-fluid rounded float-end  ">
-        </div>
-        <div class="uni-img  d-sm-block d-md-none ">
-            <img src="images/estu-image-snow.jpg" alt="image of Estu" 
-            class="img-fluid rounded float-end ">
-        </div>
+       
+        <div id="uni-img-slide" class="main-slide carousel slide container w-100 " data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#uni-img-slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#uni-img-slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#uni-img-slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-3">
+              <div class="carousel-item active ">
+                <img src="images/carousel_imgs/new_1413.jpeg" class="uni-img d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel_imgs/r_son.jpeg" class="uni-img d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/carousel_imgs/sdfghj.jpeg" class="uni-img d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#uni-img-slide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#uni-img-slide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
     <section class="main-2 container-fluid p-5 d-flex justify-content-between align-items-start  ">
         <div class="aside">
-            <aside>
+            <aside class=" mt-5">
                 <ul class="nav navbar-nav ms-auto flex-column ">
                     <li class=" nav-item highlight active"><a class="nav-link px-3" href="#">Home</a></li>
                     <li class="nav-item highlight"><a class="nav-link px-3" href="university.html">University</a></li>

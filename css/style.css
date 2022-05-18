@@ -47,10 +47,16 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
+    min-height: 80vh;
+}
+@media (min-width: 1200px) {
+    .main-slide {
+        max-width: 60% !important;
+    }
 }
 
 .socials .s-icon {
-    max-height: 40px;
+    max-height: 25px;
     margin-right: 4px;
     filter: invert(36%) sepia(92%) saturate(702%) hue-rotate(135deg) brightness(103%) contrast(101%);
 }
@@ -67,24 +73,6 @@ section {
 .uni-img:hover {
     transform: scale(1.05);
 }
-
-
-/*.main-2 {
-    display: flex;
-    justify-content: flex-start;
-    gap: 2em;
-    align-items: flex-start;
-    background-color: #f1ecec;
-}*/
-
-/* .title {
-    display: flex;
-    justify-content: center;
-    color: #9b000a;
-    font-size: 2.2em;
-    font-weight: 800;
-    margin-bottom: 30px;
-} */
 
 
 .highlight a {
