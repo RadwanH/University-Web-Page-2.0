@@ -372,11 +372,14 @@ form .signup-link a:hover {
 }
 
 /******************Student***********/
-.menu-btn {
+.club-img {
+    max-height: 15em;
+}
+/* .menu-btn {
     background-color: transparent;
     cursor: pointer;
     border: transparent;
-}
+} */
 
 /* .stdnt-menu {
     position: relative;
@@ -411,15 +414,15 @@ form .signup-link a:hover {
     background-color: transparent;
 } */
 
-.cards {
+/* .cards {
     width: 100%;
     min-height: 20em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
-.card {
+/* .card {
     background-color: #fff;
     border: 1px solid #fff;
     min-height: 14em;
@@ -462,7 +465,7 @@ form .signup-link a:hover {
 
 .read-more:hover {
     color: #009b91;
-}
+} */
 
 /**********Document**********/
 .doc-cards {
