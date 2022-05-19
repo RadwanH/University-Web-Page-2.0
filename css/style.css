@@ -375,97 +375,14 @@ form .signup-link a:hover {
 .club-img {
     max-height: 15em;
 }
-/* .menu-btn {
-    background-color: transparent;
-    cursor: pointer;
-    border: transparent;
-} */
 
-/* .stdnt-menu {
-    position: relative;
-    display: inline-block;
-} */
-
-/* .drop-menu {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    padding: 0.2em;
-    min-width: 158px;
-    z-index: 1;
-}
-
-.drop-menu a:hover {
-    background-color: #009b91;
-    color: #fff;
-}
-
-.drop-menu .drop-elmnt {
-    font-size: 0.8em;
-    font-weight: 400;
-}
-
-.stdnt-menu:hover .drop-menu {
-    display: block;
-}
-
-.stdnt-menu:hover .menu-btn {
-    background-color: transparent;
-} */
-
-/* .cards {
-    width: 100%;
-    min-height: 20em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-
-/* .card {
-    background-color: #fff;
-    border: 1px solid #fff;
-    min-height: 14em;
-    width: 25em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
+.card {
     transition: 0.2s ease;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
-
-.club-img img {
-    width: 100%;
-}
-
-.card-info {
-    padding: 1em;
-}
-
-.card-info p {
-    font-size: 0.8em;
-    color: #000;
-}
-
-.club-title {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 10px;
-}
-
-.read-more {
-    text-decoration: none;
-    color: #9b000a;
-}
-
-.read-more:hover {
-    color: #009b91;
-} */
 
 /**********Document**********/
 .doc-cards {
