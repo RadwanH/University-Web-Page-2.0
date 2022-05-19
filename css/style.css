@@ -323,54 +323,11 @@ form .signup-link a:hover {
 }
 
 /*********Academics*********/
-.tables {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 1.5em;
-    justify-content: center;
-    align-items: center;
-}
 
-.ac-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-
-.ac-table caption {
-    background-color: #83b8b4;
-    color: #9b000a;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-.ac-table thead tr {
+table thead {
     background-color: #009b91;
     color: #9b000a;
-    text-align: left;
 }
-
-.ac-table th,
-.ac-table td {
-    padding: 12px 15px;
-}
-
-.ac-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-}
-
-.ac-table tbody tr:nth-of-type(even) {
-    background-color: #d8cccc;
-}
-
-.ac-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009b91;
-}
-
 /******************Student***********/
 .club-img {
     max-height: 15em;
