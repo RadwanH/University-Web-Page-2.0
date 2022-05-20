@@ -91,6 +91,11 @@ section {
     padding: 1.3em;
     overflow: scroll;
 }
+@media (max-width: 768px){
+    .announcements {
+        width: 100%;
+    }
+}
 
 .announcements ul {
     list-style: none;
@@ -136,7 +141,7 @@ section {
 /* ***********Login page *********** */
 .login-sec {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("/assets/images/estu_view.jpeg");
+        url("../assets/images/estu_view.jpeg");
 }
 
 .login-main {
