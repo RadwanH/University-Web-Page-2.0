@@ -1,3 +1,12 @@
-To view the project please follow this link
+----------------- Important Links  -----------
 
-https://radwanh.github.io/University-Web-Page/
+
+HW2 : https://radwanh.github.io/University-Web-Page-2.0/
+REPO : https://github.com/RadwanH/University-Web-Page-2.0
+
+
+
+
+
+HW1 : https://radwanh.github.io/University-Web-Page/
+REPO : https://github.com/RadwanH/University-Web-Page
